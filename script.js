@@ -322,27 +322,27 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
+            text: 'Photo 1 💕',
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'Photo 2',
             image: './images/photo2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'Photo 3 🌟',
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'Photo 4 ❤️',
             image: './images/photo4.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
+            text: 'Photo 5 🥰',
             image: './images/photo5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Photo 6 😂',
             image: './images/photo6.jpg'
         },
         {
@@ -350,7 +350,7 @@ function startPhotoShow() {
             image: './images/photo7.jpg'
         },
         {
-            text: 'Love Forever 💖',
+            text: 'Taya Birthday 💖',
             image: './images/photo8.jpg'
         }
     ];
@@ -378,7 +378,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">💕 TAYA BIRTHDAY 💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
@@ -567,7 +567,7 @@ function initializeMusicPlayer() {
             </div>
             <div class="music-info">
                 <div class="current-playlist">Now Playing: Birthday Special Mix</div>
-                <div class="playlist-description">Lagu-lagu spesial untuk hari istimewa kamu ✨</div>
+                <div class="playlist-description">Lagu-lagu spesial untuk hari istimewa Teh Taya ✨</div>
             </div>
         </div>
     `;
@@ -612,13 +612,13 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Lagu-lagu spesial untuk hari istimewa Teh Taya ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Koleksi lagu cinta terbaik ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
