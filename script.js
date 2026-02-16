@@ -223,15 +223,13 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = `Dear Sang Pemilik Hari: Doa dan Harapan untuk Kakakku Taya.
 
-Happy Birthday!
+Di balik putaran waktu, hari ini bukan sekadar pergantian angka dalam usiamu. Hari ini adalah pengingat bagi dunia bahwa seorang manusia berhati lembut sepertimu telah lahir untuk membawa warna. Selamat ulang tahun, Teh Taya. Aku menuliskan secarik doa ini di tengah rindunya malam, mencoba merangkai syukur karena takdir pernah berbaik hati mempertemukan aku dan kakak.
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Di hari istimewamu ini, aku melangitkan doaku pada Sang Pemilik Hidup. Semoga langkah kakak selalu diringi kemudahan, hatimu senantiasa dipeluk kedamaian, dan senyummu tak pernah luntur oleh beban apa pun. Tetaplah menjadi Teh Taya yang menginspirasi, yang kehadirannya selalu menenangkan, dan yang kebaikannya melangit. Aku bangga bisa memanggilmu "Teteh", sosok kakak yang kehadirannya selalu memberikan ketenangan.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+Happy Birthday, Teh. May your life be as beautiful as the heart you carry 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +264,11 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Dear Sang Pemilik Hari<br><br>Doa dan Harapan untuk Kakakku Taya.<br><br>Di balik putaran waktu, hari ini bukan sekadar pergantian angka dalam usiamu. Hari ini adalah pengingat bagi dunia bahwa seorang manusia berhati lembut sepertimu telah lahir untuk membawa warna. Selamat ulang tahun, Teh Taya. Aku menuliskan secarik doa ini di tengah rindunya malam, mencoba merangkai syukur karena takdir pernah berbaik hati mempertemukan aku dan kakak.
+
+Di hari istimewamu ini, aku melangitkan doaku pada Sang Pemilik Hidup. Semoga langkah kakak selalu diringi kemudahan, hatimu senantiasa dipeluk kedamaian, dan senyummu tak pernah luntur oleh beban apa pun. Tetaplah menjadi Teh Taya yang menginspirasi, yang kehadirannya selalu menenangkan, dan yang kebaikannya melangit. Aku bangga bisa memanggilmu "Teteh", sosok kakak yang kehadirannya selalu memberikan ketenangan.
+
+Happy Birthday, Teh. May your life be as beautiful as the heart you carry. 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -350,7 +352,7 @@ function startPhotoShow() {
             image: './images/photo7.jpg'
         },
         {
-            text: 'Taya Birthday 💖',
+            text: 'Sweet Memories 💖',
             image: './images/photo8.jpg'
         }
     ];
