@@ -349,11 +349,11 @@ function startPhotoShow() {
         },
         {
             text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
+            image: './images/photo 9.jpg.jpeg'
         },
         {
             text: 'Sweet Memories 💖',
-            image: './images/photo8.jpg'
+            image: './images/photo 10.JPG.jpeg'
         }
     ];
     
